@@ -115,8 +115,10 @@ export default {
     },
     async postLogin () {
       // TODO:: ここにログインの処理を書く
+      const res = await this.$axios.get(`/api/accounts/${ this.loginForm.email }`)
+      this.$store.commit('setCurrentAccount', res.data)
       this.loading = false
-      return
+      this.$router.push('/articles')
     }
   }
 }
