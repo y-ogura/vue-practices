@@ -19,4 +19,7 @@ $ npm start
 $ npm run generate
 ```
 
+## Question
+pages/index.vueのpostLoginを実行すると`/api/accounts/:email`からアカウント情報を取得して、ローカルストレージ、storeに保存する機能を実装してください
+
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
