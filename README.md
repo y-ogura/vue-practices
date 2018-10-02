@@ -2,5 +2,5 @@
 
 ## Installation
 ```
-$ git clone https:github.com/y-ogura/vue-practices
+$ git clone https:github.com/y-ogura/vue-practices.git
 ```
