@@ -22,6 +22,15 @@ async function start() {
     await builder.build()
   }
 
+  // get account
+  app.get("/api/accounts/:email", function(req, res, next) {
+    const accounts = {
+      id: '9b75efb9-28a3-4baf-acf3-917359db8877',
+      email: 'admin@example.com'
+    }
+    res.json(accounts)
+  })
+
   // Give nuxt middleware to express
   app.use(nuxt.render)
 

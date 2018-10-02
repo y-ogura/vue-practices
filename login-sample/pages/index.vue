@@ -113,7 +113,7 @@ export default {
         }
       })
     },
-    postLogin () {
+    async postLogin () {
       // TODO:: ここにログインの処理を書く
       this.loading = false
       return
