@@ -1,4 +1,4 @@
-# login-sample1
+# login-sample
 
 > My superior Nuxt.js project
 
@@ -20,6 +20,24 @@ $ npm run generate
 ```
 
 ## Question
-pages/index.vueのpostLoginを実行すると`/api/accounts/:email`からアカウント情報を取得して、ローカルストレージ、storeに保存する機能を実装してください
+### ja
+ログインボタンをクリックすると`http://localhost:3000/api/accounts/:email`からアカウント情報を取得
+取得したデータをローカルストレージ、stateに保存後、`/articles`に画面遷移する機能を
+/pages/index.vue
+/store/index.js
+に実装してください。
+
+### en
+You should implement the functions in `pages/index.vue` and `store/index.js`.
+
+These functions save data on the local storage and the store after getting account data from `http://localhost:3000/api/accounts/:email` when click login button.
+At last, the view transits to `/articles`.
+
+## Answer
+### ja
+login-sample-answerのブランチに解答があります
+
+### en
+You can know answer looking the branch 'login-sample-answer'
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
