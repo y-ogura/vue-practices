@@ -38,7 +38,7 @@ You should implement functions  of following conditions in `pages/index.vue`.
 `pages/answer/index.vue`に解答が記載されています。
 
 ### en
-You can know answer looking the `pages/answer/index.vue`.
+You can know the answer looking the `pages/answer/index.vue`.
 
 ## 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
