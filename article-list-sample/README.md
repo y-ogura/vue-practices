@@ -19,4 +19,24 @@ $ npm start
 $ npm run generate
 ```
 
+
+## Question
+### ja
+`pages/index.vue`に以下の機能を実装してください。
+- `http://localhost:3000/api/articles`からデータを取得
+- `components/ArticleItemList.vue`を使ってarticlesを表示
+
+### en
+You should implement functions of following conditions in `pages/index.vue`.
+- fetch data from `http://localhost:3000/api/articles`.
+- use `components/ArticleItemList.vue` to show data.
+
+## Answer
+### ja
+- `pages/answer/index.vue`に解答が記載されています。
+
+### en
+You can know the answer looking the `pages/answer/index.vue`.
+
+## 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
