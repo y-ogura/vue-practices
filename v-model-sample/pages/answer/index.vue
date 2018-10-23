@@ -34,7 +34,7 @@ export default {
   },
   data () {
     const contentValid = (rule, value, callback) => {
-      if (value = '') {
+      if (value === '') {
         callback('content is required')
       }
       callback('')
@@ -59,14 +59,19 @@ export default {
     ]
   },
   methods: {
-    sendPost () {
+    async sendPost () {
       // write your answer.
-      const request = {
-        id: this.posts.length + 1,
-        content: this.post.content
-      }
-      this.posts.unshift(request)
-      this.$refs.post.resetFields()
+      await this.$refs.post.validate((valid) => {
+        if (!valid) {
+          return
+        }
+        const request = {
+          id: this.posts.length + 1,
+          content: this.post.content
+        }
+        this.posts.unshift(request)
+        this.$refs.post.resetFields()
+      })
     }
   }
 }
