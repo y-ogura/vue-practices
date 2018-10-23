@@ -35,7 +35,7 @@ export default {
   data () {
     const contentValid = (rule, value, callback) => {
       if (value === '') {
-        callback('content is required')
+        return callback('content is required')
       }
       callback('')
     }
