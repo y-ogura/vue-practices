@@ -13,7 +13,7 @@ export default {
   props: {
     post: {
       type: Object,
-      default: function () { return {} }
+      default: () => { return {} }
     }
   }
 }

@@ -4,9 +4,9 @@
       <h2>Articles</h2>
       <!--
         wite here your answer.
-        show articles with use ArticleItemList component.
+        show articles with use ArticleListItem component.
       -->
-      <ArticleItemList
+      <ArticleListItem
         v-for="article in articles"
         :key="article.id"
         :post="article"
@@ -16,11 +16,11 @@
 </template>
 
 <script>
-import ArticleItemList from '~/components/ArticleItemList.vue'
+import ArticleListItem from '~/components/ArticleListItem.vue'
 
 export default {
   components: {
-    ArticleItemList
+    ArticleListItem
   },
   data () {
     return {

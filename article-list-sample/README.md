@@ -24,12 +24,12 @@ $ npm run generate
 ### ja
 `pages/index.vue`に以下の機能を実装してください。
 - `http://localhost:3000/api/articles`からデータを取得
-- `components/ArticleItemList.vue`を使ってarticlesを表示
+- `components/ArticleListItem.vue`を使ってarticlesを表示
 
 ### en
 You should implement functions of following conditions in `pages/index.vue`.
 - fetch data from `http://localhost:3000/api/articles`.
-- use `components/ArticleItemList.vue` to show data.
+- use `components/ArticleListItem.vue` to show data.
 
 ## Answer
 ### ja
