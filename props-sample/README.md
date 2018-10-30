@@ -24,3 +24,9 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 ## Question
 ### ja
 `pages/index.vue`をコンポーネントに分割して実装してください。
+
+## Answer
+### ja
+下記に解答が記載されています。
+- `pages/answer/index.vue`
+- `components/answer`
