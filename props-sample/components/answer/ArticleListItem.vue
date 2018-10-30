@@ -14,7 +14,8 @@ export default {
   props: {
     article: {
       type: Object,
-      default: () => { return {} }}
+      default: () => { return {} }
+    }
   }
 }
 </script>
